@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Texas Holdem
+GenericName=
+Comment=
+Type=Application
+Exec=defaultbrowser --app=file:///usr/games/texas_holdem/poker.html --window-size=890,560 --user-data-dir=/root/.cache/vivaldi_texas_holdem
+Icon=/usr/games/texas_holdem/static/images/chip5.png
+Terminal=false
+Categories=CardGame
+Keywords=cards;

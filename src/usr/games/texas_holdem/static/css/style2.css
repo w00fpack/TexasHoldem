@@ -1,0 +1,276 @@
+
+body {
+  font-family: tabular;
+
+	transform: scale(.8);
+	position: absolute;
+	top: -65px;
+}
+/*
+.image {
+  width:100%;
+  height:100%;
+  background:url(carpet.jpg)  no-repeat center center fixed;
+  top: 0;
+  bottom:0;
+  position: fixed;
+  overflow-y: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}*/
+
+body, html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: tabular;
+    height: 100%;
+    min-height: 720px;
+    background-color: rgb(22 23 62);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+   #settings {
+   z-index: 9999999999;
+   display: none;
+   }
+
+
+
+#centeractions {
+    width: 330px;
+    margin: 0 auto;
+
+}
+
+
+#BGB {
+    background: transparent;
+}
+
+#mainsettings {
+    width: 300px;
+    height: 118px;
+    border-radius: 0px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 0px;
+
+}
+#cheatsheet {
+    top: 559px;
+    width: 360px;;
+    height: 127px;
+    background-image: url(../images/carbon.png);
+    background-repeat: repeat;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    border: 1px solid yellowgreen;
+    z-index: 99999 !important;
+    cursor: default;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 50px;
+}
+@font-face {
+font-family: 'digital';
+src: url('fonts/Auto_Digital.eot'); /* IE9 Compat Modes */
+src: url('fonts/Auto_Digital.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/Auto_Digital.woff2') format('woff2'), /* Super Modern Browsers */
+url('fonts/Auto_Digital.woff') format('woff'), /* Pretty Modern Browsers */
+url('fonts/Auto_Digital.ttf')  format('truetype'); /* Safari, Android, iOS */
+font-size: 100%;
+}
+@font-face {
+font-family: 'western';
+src: url('fonts/western.eot'); /* IE9 Compat Modes */
+src: url('fonts/western.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/western.woff2') format('woff2'), /* Super Modern Browsers */
+url('fonts/western.woff') format('woff'), /* Pretty Modern Browsers */
+url('fonts/western.ttf')  format('truetype'); /* Safari, Android, iOS */
+font-size: 100%;
+}
+@font-face {
+	font-family: 'tabular';
+	font-size: 100%;
+}
+
+#cheatsheetheader {
+  cursor: move;
+  z-index: 999999998 !important;
+}
+progress[value]::-webkit-progress-value {
+<!--
+  background-image:
+	   -webkit-linear-gradient(-45deg,
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top,
+	                           rgba(255, 255, 255, .25),
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+-->
+
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+#game-response2 {
+
+        width: 338px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        position: relative;
+      }
+
+
+    #cs {
+    width: 280px;
+    table-layout: fixed;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    line-height: 12px;
+    border-collapse: collapse;
+    background: #000;
+    padding: 10px;
+    bottom: 10px;
+    margin-left: 10px;
+
+    }
+    #rs {
+    width: 300px;
+    height: 449px;
+    position: absolute;
+    float: right;
+    }
+
+    #bgp {
+    color: #fff;
+
+    }
+    #cs img {
+    max-height: 40px;
+    max-width: 25px;
+    }
+    .tablecard {
+    margin: 0;
+    width: 25px;
+    }
+    .handkind {
+    width: 125px;
+    padding-left: 5px;
+    }
+    html, body {
+    height:100%;
+
+    }
+
+.chip {
+	display:none;
+	width:32px;
+	height:32px;
+	-webkit-filter: drop-shadow(0px 0px 1px #000);
+	filter: drop-shadow(0px 0px 1px #000);'
+ }
+
+.avatar {
+	height:  120px;
+	width: 120px;
+	padding: 0 !important;
+}
+
+.bet {
+	opacity: .7;
+	background: transparent;
+}
+
+.mychips, .bet {
+	position: absolute;
+}
+
+#seat1 .mychips {
+	top: -70px
+}
+
+#seat1 .bet {
+	top: -100px;
+	left: 100px;
+}
+
+#seat2 .mychips {
+	top: 10;
+}
+
+#seat2 .bet {
+	top: -20px;
+	left: 100px;
+}
+
+#seat3 .mychips {
+	top: 50px;
+}
+
+#seat3 .bet {
+	top: 20px;
+	left: 65px;
+}
+
+#seat4 .mychips {
+	top: 60px;
+	left:  10px;
+}
+
+#seat4 .bet {
+	top: 30px;
+	left: 70px;
+}
+
+#seat5 .mychips {
+	top: 60px;
+	left: -159px;
+}
+
+#seat5 .bet {
+	top: 30px;
+	left: -110px;
+}
+
+#seat6 .mychips {
+	top: 60px;
+	left: -159px;
+}
+
+#seat6 .bet {
+	top: 30px;
+	left: -110px;
+}
+
+#seat7 .mychips {
+	top: 20px;
+	left: -150px
+}
+
+#seat7 .bet {
+	top: 0;
+	left: -120px;
+}
+
+#seat8 .mychips {
+	top: -70px;
+	left: -150px;
+}
+
+#seat8 .bet {
+	top: -110px;
+	left: -130px;
+}
+
